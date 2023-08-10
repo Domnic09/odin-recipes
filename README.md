@@ -1,2 +1,4 @@
 # odin-recipes
-hrllo
+New two recipes added:
+- Chicken Tacos
+- Italian Chicken

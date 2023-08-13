@@ -1,0 +1,36 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    grid-template-columns: min-content;
+    grid-template-areas:
+    "title  title"
+    "list   image"
+    "return return";
+}
+h1{
+    grid-area: title;
+    text-align: center;
+    font-weight: 900;
+    font-size: 50px;
+    background-color:aqua;
+}
+ul::marker{
+    text-align: center;
+}
+ul{
+    grid-area: list;
+    margin: 0 0 15px 120px;
+    background-color: yellow;
+    text-decoration-style: none;
+}
+.items{
+    grid-area: items;
+}
+.inst{
+    grid-area: instructions;
+}
+.return{
+    grid-area: return;
+}
